@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All A side life of mine
+title: "A" side life of mine
 subtitle: Let's get the ball rolling in GenAI era
 ---
 
