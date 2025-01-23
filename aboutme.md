@@ -1,16 +1,15 @@
 ---
 layout: page
-title: "A" side life of mine
-subtitle: Let's get the ball rolling in GenAI era
+title: "A" side life of Muji
+subtitle: Let's get the ball rolling
 ---
 
-My name is Muji. I have the following qualities:
+My name is Muji. 
 
-- Major in Computer Science
-- Working on a GenAI team as a AI solution architect
+- AI Product solution architect
 - Interested in LLM, LLM applications and LLM security
 
-### My story
+### My Attitude Towards Life
 
 - Eyes protect first, then work
 - Solve real problems, beyond the hype
