@@ -4,9 +4,9 @@ title: "A" side life of Muji
 subtitle: Let's get the ball rolling
 ---
 
-My name is Muji. 
+My name is Muji
 
-- AI Product solution architect
+- AI Product manager
 - Interested in LLM, LLM applications and LLM security
 
 ### My Attitude Towards Life
