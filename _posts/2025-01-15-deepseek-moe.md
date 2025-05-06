@@ -12,7 +12,6 @@ author: Muji
 
 ## MOE 原理
 
-![image.png](attachment:74d1bd39-048e-4a5f-929b-4d665a36c71a:image.png)
 
 - 为什么会选择 MOE 模型？
     - 对于dense模型更大的参数量，在达到相同期望损失时cost更低，但是推理阶段消耗更多；但如果是moe，训练cost更低，推理时也少 （虽然显存加载更多，但激活参数少）
@@ -23,18 +22,14 @@ author: Muji
     - 可能有专家负载不均衡问题，训练难度高
 - MOE结构做了怎样的改变？
 
-![image.png](attachment:67c2cbc9-233a-442f-b2c7-9e982149de09:image.png)
 
-![image.png](attachment:5c5e8161-c8e0-4969-b5dc-363b76866b16:image.png)
-
-MOE 主要对前向网络做改变，DENSE是FCNN先升维，再降维的映射（两个线性层）；MOE是中间分为多个子fcnn专家模块，前置增加一个路由模块，选择该token会走向的专家模块权重：如图，假设路由模块概率top2选择了专家1和3，那么就会经过这两个子专家模块，之后专家权重加权求和得到输出层向量
+MOE 主要对前向网络做改变，DENSE是FCNN先升维，再降维的映射（两个线性层）；MOE是中间分为多个子FCNN家模块，前置增加一个路由模块，选择该token会走向的专家模块权重：如图，假设路由模块概率top2选择了专家1和3，那么就会经过这两个子专家模块，之后专家权重加权求和得到输出层向量
 
 需要注意的是专家选择是**对每个 token 做选择的**
 
-![image.png](attachment:13a57362-27ff-4ae4-a502-e71459364b49:image.png)
+
 
 专家网络链路：前向传播时对输入形状做修改，从batchsize*sequence_length*hidden_size变为 token数量*hidden_size，之后经过路由线性模块和softmax，转化成每个专家的选择权重；之后选择topk个专家的index和权重，并重新归一化
 
 MOE层链路：放置n个专家网络和一个路由层，一个batch的sequence进来，做前向传播，得到对应专家和权重，之后相加求和得到moe层对应的输出
 
-大模型对文本做训练时候是自回归next token的loss选择吗？这个训练时候loss是怎么确定的？
