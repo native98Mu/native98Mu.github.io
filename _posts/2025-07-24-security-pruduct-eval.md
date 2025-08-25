@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 大模型在内容安全业务中有什么新变化
-subtitle: 还有哪些困难需要解决
-# cover-img: /assets/img/tts-cover.png
+title: 大模型时代，如何用AI筑牢内容安全的防线
+# subtitle: 还有哪些困难需要解决
+cover-img: /assets/img/security-cover.png
 # cover-img: /assets/img/path.jpg
 # thumbnail-img: /assets/img/thumb.png
 # share-img: /assets/img/path.jpg
