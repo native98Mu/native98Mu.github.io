@@ -19,7 +19,7 @@ author: Muji
 "
 Storybook 的交互界面非常直观，左侧是对话框，右侧是生成的绘本，除封面外共 10 页内容。
 
-![story-cover](/assets/img/story-01)
+![story-cover](/assets/img/story-01.png)
 
 除了基本的阅读功能，它还支持语音播报并自动翻页。然而，TTS文字转语音的体验让我有些失望。默认的语音听起来非常呆板，缺乏情感和节奏感，与我之前使用过的 NotebookLM 的流畅自然相比，差距明显。
 
@@ -28,52 +28,52 @@ Storybook 的交互界面非常直观，左侧是对话框，右侧是生成的�
 另外从生成内容来看，画风和人物一致性是我非常满意的亮点。可以看到绘本精准地捕捉了典型的西方神话画风，宙斯的形象与我记忆中的动画片形象有几分神似。人物在不同页面中的形象也保持了高度的一致性。
 
 下面可以看下完整的绘本生成内容：
-![story-content](/assets/img/story-02)
-![story-content](/assets/img/story-03)
-![story-content](/assets/img/story-04)
-![story-content](/assets/img/story-05)
-![story-content](/assets/img/story-06)
-![story-content](/assets/img/story-07)
-![story-content](/assets/img/story-08)
-![story-content](/assets/img/story-09)
-![story-content](/assets/img/story-10)
-![story-content](/assets/img/story-11)
+![story-content](/assets/img/story-02.png)
+![story-content](/assets/img/story-03.png)
+![story-content](/assets/img/story-04.png)
+![story-content](/assets/img/story-05.png)
+![story-content](/assets/img/story-06.png)
+![story-content](/assets/img/story-07.png)
+![story-content](/assets/img/story-08.png)
+![story-content](/assets/img/story-09.png)
+![story-content](/assets/img/story-10.png)
+![story-content](/assets/img/story-11.png)
 
 ### 突破故事长度的局限
 如果说 10 页内容讲述宙斯还算勉强够用，那么面对“俄狄浦斯的悲剧”这种复杂故事时，故事长度的局限性就立刻暴露出来了。我的第一轮尝试仅仅只讲到俄狄浦斯娶了自己的母亲，多年后一场瘟疫席卷全城，神谕显示杀死老国王的凶手还在城中，他发誓要找出凶手，在过程中又揭开自己的悲惨命运，后面的高潮情节并未呈现。
 
-![story-content](/assets/img/story2-11)
+![story-content](/assets/img/story2-11.png)
 
 然而惊喜的点来了，Storybook 能接着上一轮的故事接着讲！当我再次输入指令时，它能够无缝衔接上一轮的故事，将一个未完待续的短篇拓展成一个完整的故事。这样一来，就不必拘泥于10页讲完的小故事，它让用户可以像与画师对话一样，逐步迭代和深入地创作内容，这比一次性生成所有内容要灵活得多。
 
-![story-content](/assets/img/story2-00)
+![story-content](/assets/img/story2-00.png)
 
 最后展示下完整的绘本，有的地方人物出现的三只胳膊的bug，或者人物动作有些重复，不过整体故事完整性，人物一致性（尤其是俄狄浦斯本人），图片环境的时代契合性（古希腊大圆石柱）和画风上都还是令我满意的。
 
-![story-content](/assets/img/story-01)
-![story-content](/assets/img/story-02)
-![story-content](/assets/img/story-03)
-![story-content](/assets/img/story-04)
-![story-content](/assets/img/story-05)
-![story-content](/assets/img/story-06)
-![story-content](/assets/img/story-07)
-![story-content](/assets/img/story-08)
-![story-content](/assets/img/story-09)
-![story-content](/assets/img/story-10)
-![story-content](/assets/img/story-11)
-![story-content](/assets/img/story-12)
-![story-content](/assets/img/story-13)
-![story-content](/assets/img/story-14)
-![story-content](/assets/img/story-15)
-![story-content](/assets/img/story-16)
-![story-content](/assets/img/story-17)
-![story-content](/assets/img/story-18)
-![story-content](/assets/img/story-19)
-![story-content](/assets/img/story-20)
+![story-content](/assets/img/story-01.png)
+![story-content](/assets/img/story-02.png)
+![story-content](/assets/img/story-03.png)
+![story-content](/assets/img/story-04.png)
+![story-content](/assets/img/story-05.png)
+![story-content](/assets/img/story-06.png)
+![story-content](/assets/img/story-07.png)
+![story-content](/assets/img/story-08.png)
+![story-content](/assets/img/story-09.png)
+![story-content](/assets/img/story-10.png)
+![story-content](/assets/img/story-11.png)
+![story-content](/assets/img/story-12.png)
+![story-content](/assets/img/story-13.png)
+![story-content](/assets/img/story-14.png)
+![story-content](/assets/img/story-15.png)
+![story-content](/assets/img/story-16.png)
+![story-content](/assets/img/story-17.png)
+![story-content](/assets/img/story-18.png)
+![story-content](/assets/img/story-19.png)
+![story-content](/assets/img/story-20.png)
 
 
 ### Summary
-体验后我觉得 Storybook 的几个核心优缺点：
+下面是体验后我觉得 Storybook 的几个核心优缺点：
 
 亮点：
 - 出色的艺术风格和人物一致性：生图审美好同时一致性强，都是重要的加分项
@@ -83,7 +83,6 @@ Storybook 的交互界面非常直观，左侧是对话框，右侧是生成的�
 当下缺陷：
 - tts 语音体验差：呆板的朗读声音难以满足儿童故事等场景的需求
 - 图像生成的 bug：偶尔会出现“三只胳膊”等明显的图像错误，影响整体观感。
-
 
 当然除了生成这种故事类型绘本，我看到还有人用它来根据个人的微博，ins内容或者是微信朋友圈等来生成图文版个人志，描述一段时间内个体的生活和精神状况，都是有趣的应用。
 
