@@ -9,11 +9,11 @@ subtitle: Let's get the ball rolling
 
 My name is Muji
 
-- AI Product manager
+- AI Product Solutions Architect, AI Product manager
 - Interested in LLM, AI applications and LLM security
 
 ## My Attitude Towards Life
 
-- Eyes protect first, then work
-- Solve real problems, beyond the hype
-- Go create, don't give up
+- Protect your eyes first, then work.
+- Solve real problems, beyond the hype.
+- Go and create, don’t give up.
